@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12.5rem;
+  background-color: var(--gray-700);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 7.875rem;
+}
+.container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--blue);
+}
+
+.container h1:last-child {
+  color: var(--purple-dark);
+}
+
+.icon {
+  width: 1.375rem;
+  height: 2.25rem;
+  margin-right: 0.75rem;
+}
+
+
