@@ -1,0 +1,22 @@
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 46rem;
+
+}
+
+.newTaskContainer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}

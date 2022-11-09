@@ -1,13 +1,13 @@
 import { InputHTMLAttributes } from "react";
 
-import styles from "./Input.module.css";
+import styled from "./Input.module.css";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
 
 export function Input({ ...props }: InputProps) {
   return (
-    <div className={styles.inputContainer}>
-      <input className={styles.input} {...props} />
+    <div className={styled.inputContainer}>
+      <input className={styled.input} {...props} />
     </div>
   );
 }

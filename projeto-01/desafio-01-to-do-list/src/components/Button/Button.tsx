@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes } from "react";
 import { PlusCircle } from "phosphor-react";
 
-import styles from "./Button.module.css";
+import styled from "./Button.module.css";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   title: string;
@@ -9,9 +9,9 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Button({ title, ...props }: ButtonProps) {
   return (
-    <div className={styles.container}>
+    <div className={styled.container}>
       <button
-        className={styles.button}
+        className={styled.button}
         {...props}
       >
         {title}
