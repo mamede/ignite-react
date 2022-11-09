@@ -34,3 +34,7 @@ body {
   color: var(--gray-100);
   background-color: var(--gray-600);
 }
+
+button {
+  border: none;
+}

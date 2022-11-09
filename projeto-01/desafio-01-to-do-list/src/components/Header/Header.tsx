@@ -1,5 +1,3 @@
-import { Rocket } from "phosphor-react";
-
 import RocketIcon from '../../assets/rocket.svg';
 
 import styled from "./Header.module.css";
