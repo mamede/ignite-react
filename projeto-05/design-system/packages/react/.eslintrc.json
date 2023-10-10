@@ -1,0 +1,3 @@
+{
+  "extends": "@campeiro-ui/eslint-config"
+}
