@@ -25,10 +25,12 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
+    "@campeiro-ui/eslint-config": "*",
     "@campeiro-ui/react": "*",
     "@campeiro-ui/tokens": "*",
-    "@campeiro-ui/eslint-config": "*",
     "@campeiro-ui/ts-config": "*",
+    "@phosphor-icons/react": "^2.0.13",
+    "@storybook/addon-a11y": "^7.4.6",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
