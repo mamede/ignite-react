@@ -1,6 +1,6 @@
 {
   "name": "@mamede/tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a package for studying for ignite Rocketseat 2023",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
