@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@campeiro-ui/tokens'
+} from '@mamede/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

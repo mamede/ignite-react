@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@campeiro-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@mamede/react'
 
 export default {
   title: 'Form/Text Area',

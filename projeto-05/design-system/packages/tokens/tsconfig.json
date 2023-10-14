@@ -1,4 +1,4 @@
 {
-  "extends": "@campeiro-ui/ts-config/base.json",
+  "extends": "@mamede/ts-config/base.json",
   "include": ["src"]
 }

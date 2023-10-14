@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { colors } from '@campeiro-ui/tokens'
+import { colors } from '@mamede/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

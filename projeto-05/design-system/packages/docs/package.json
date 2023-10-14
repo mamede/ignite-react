@@ -1,15 +1,16 @@
 {
-  "name": "@campeiro-ui/docs",
+  "name": "@mamede/docs",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "build-storybook"
   },
   "keywords": [],
-  "author": "",
+  "author": "mamede",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -19,18 +20,19 @@
     "@storybook/addon-links": "^6.5.12",
     "@storybook/builder-vite": "^0.2.3",
     "@storybook/react": "^6.5.12",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^2.1.0",
     "babel-loader": "^8.2.5",
     "vite": "^3.1.4"
   },
   "dependencies": {
-    "@campeiro-ui/eslint-config": "*",
-    "@campeiro-ui/react": "*",
-    "@campeiro-ui/tokens": "*",
-    "@campeiro-ui/ts-config": "*",
+    "@mamede/eslint-config": "*",
+    "@mamede/react": "*",
+    "@mamede/tokens": "*",
+    "@mamede/ts-config": "*",
     "@phosphor-icons/react": "^2.0.13",
-    "@storybook/addon-a11y": "^7.4.6",
+    "@storybook/addon-a11y": "^6.5.12",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

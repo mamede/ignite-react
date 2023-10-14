@@ -1,5 +1,6 @@
 {
-  "name": "@campeiro-ui/eslint-config",
+  "name": "@mamede/eslint-config",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "main": "index.js",
